@@ -1,2 +1,10 @@
 # sundew
-An easy to use cross-platform C/C++ cryptography library.
+
+An easy to use cross-platform C++ cryptography library.
+
+# Goals
+
+* To be simple as possible, where maintainability is prioritised
+* Consistent in style and language
+* Easily adoptable
+* C++98 compatible
