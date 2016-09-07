@@ -54,7 +54,7 @@
     namespace detail
     {
         template<typename Type, bool = std::is_arithmetic<Type>::value>
-        struct is_unsigned : std::integral_constant<bool, Type(0) < Type(-1)>
+        struct is_unsigned : std::integral_constant<bool, Type (0) < Type (-1)>
         {
         };
 
